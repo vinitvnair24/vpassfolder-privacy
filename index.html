@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — VPassFolder</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 5rem;
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #15181d;
+    background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6eaf1; background: #14171c; }
+    a { color: #89a8f2; }
+    .lede { background: #1d2129; border-color: #2f3645; }
+    code { background: #1d2129; }
+  }
+  h1 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 .35rem; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .5rem; }
+  .updated { color: #6b7280; font-size: .9rem; margin: 0 0 2rem; }
+  .lede {
+    background: #f4f6f9; border: 1px solid #d6dbe4; border-radius: 10px;
+    padding: 1rem 1.15rem; margin: 0 0 2rem;
+  }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.3rem; }
+  li { margin-bottom: .35rem; }
+  code { background: #f1f3f7; padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+  a { color: #2b4fa8; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid #d6dbe4; color: #6b7280; font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — VPassFolder</h1>
+<p class="updated">Last updated: 8 October 2026</p>
+
+<div class="lede">
+  <p style="margin:0"><strong>VPassFolder collects nothing.</strong> It has no internet permission, so it cannot send anything anywhere even if it wanted to. Everything you put in it stays on your phone, encrypted, and is deleted when you uninstall the app.</p>
+</div>
+
+<h2>What data we collect</h2>
+<p>None.</p>
+<p>We do not collect, store, transmit, sell or share any personal information, usage data, device identifiers, analytics or crash reports. There is no account to create, no email address to give us, and no server for your data to go to.</p>
+
+<h2>What the app does with your files</h2>
+<p>Photos, videos, documents and subtitle files that you add to the vault are encrypted on your device using AES-256-GCM and stored in the app's private storage area, which no other app on the phone can read. The encryption key is derived from the PIN you choose, using PBKDF2-HMAC-SHA256, and exists only in the phone's memory while the vault is open.</p>
+<p>Your PIN is never stored. It cannot be recovered, by us or by anyone else. <strong>If you forget it, your files cannot be decrypted.</strong> This is a deliberate consequence of the design, not an oversight.</p>
+<p>The app can also write a readable copy of an item back to your phone's gallery, when you ask it to and after it has warned you. That copy is an ordinary file outside the vault and is no longer protected by the app.</p>
+
+<h2>Permissions</h2>
+<p>VPassFolder requests <strong>no Android permissions at all</strong>. You can verify this yourself: on the Play Store listing, under "App info", the permissions list is empty.</p>
+<p>It reads the files you choose through Android's own document picker, which grants access to those specific files only, at the moment you pick them.</p>
+
+<h2>Network access</h2>
+<p>The app has no <code>INTERNET</code> permission. It cannot make a network connection of any kind. There are no advertisements, no analytics SDKs, no crash reporting services, and no third-party libraries of any sort in the app.</p>
+
+<h2>Buying the app</h2>
+<p>VPassFolder is a paid app. The purchase is handled entirely by Google Play, inside the Play Store app — never inside VPassFolder, which has no network access and no payment code.</p>
+<p>We never receive your card, bank or UPI details. Google provides us with sales reports containing the order number, the country and, in some cases, the state or postal code of the sale, which we need for tax. None of that is connected to anything you store in the app, and we have no way to connect it.</p>
+<p>Refunds are handled by Google Play under their refund policy, not by us.</p>
+
+<h2>Only the copy from Google Play is this app</h2>
+<p>VPassFolder is published on Google Play and nowhere else. This policy describes the software we publish there, and only that software.</p>
+<p><strong>Do not trust a copy of this app from any other source.</strong> If you install an APK of it from another website, a file-sharing service, or something forwarded to you in a message, treat it as unknown software. Any Android app can be unpacked, altered and re-signed by anyone. A modified build could add network access, send what you store to someone else, or weaken the encryption, and it would still look and behave exactly like this app while doing so. The possibility of hidden data collection in such a copy cannot be ruled out.</p>
+<p>Nothing in this policy applies to a copy obtained anywhere other than Google Play, because that copy is not the software we published.</p>
+
+<h2>Backups</h2>
+<p>The app's backup feature writes an encrypted file that you choose the location for. That file is protected by a separate passphrase that you set. We never see it. Where you then store that file — a memory card, a cloud drive, a computer — is your choice, and the privacy of that location is governed by whoever provides it.</p>
+<p>Android's own cloud backup is disabled for this app (<code>allowBackup="false"</code>), so the vault is never included in a Google account backup.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children and is rated for adults.</p>
+
+<h2>This will not change</h2>
+<p>No future version of VPassFolder will collect any data of any kind. Complete privacy is not a setting in this app or a current policy position that might be revisited later — it is what the app is for, and it is built into how the app is made. There is no analytics code to switch on, no network permission to use, and no server to send anything to.</p>
+<p>If this page is ever updated, it will be to say the same thing more clearly, or to describe a feature that still collects nothing.</p>
+
+<footer>
+  This policy covers the Android application VPassFolder (package <code>com.vinit.vpassfolder</code>), published by Vinit Nair and distributed on Google Play.
+</footer>
+
+</body>
+</html>
